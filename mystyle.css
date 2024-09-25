@@ -1,21 +1,12 @@
 
-body {
+#bodyhomepage {
     background-color: rgb(217, 237, 255);
     background-size: cover;}
-    
-main h2{
-    font-family: Monospace ;
-    font-size: 20px;
-    margin: 2px;
-    padding: 5px ;
-    text-align: center; 
+#myvdo{
+    padding: 0px;
+    margin: 0px;
 }
-#myvideo{
-    border: 3px solid#ffffff;
-    padding: 10px;
-
-}
-header{
+#headerhomepage{
     background-color: #ffffff;
     padding: 20px;
     text-align: center;
@@ -25,14 +16,14 @@ header{
     display: block;
     border-radius: 25px;
 }
-nav{
+#navhomepage{
     background-color: #ffe6e6;
     padding: 20px;
     margin: 5px;
     display: block;
     position: sticky;
     float: left;
-    height: 163vh;
+    height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 50px;
     border-radius: 25px;
@@ -44,4 +35,6 @@ nav{
     margin: 10px;
     float: left;
     border-radius: 25px;
+    height: 100vh;
+    width: 100vh;
 }
